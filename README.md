@@ -12,4 +12,4 @@ If you want to build the project you can using the ``scripts/Setup.bat`` file an
 
 ### Day 1
 
- ![Green-Image](Image/day1-progess.png)
+ ![Green-Image](Images/day1-progess.png)
