@@ -11,3 +11,5 @@ If you want to build the project you can using the ``scripts/Setup.bat`` file an
 ## Progess Log
 
 ### Day 1
+
+ ![Green-Image](./Image/day1-progess.png)
