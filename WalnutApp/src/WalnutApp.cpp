@@ -39,7 +39,7 @@ public:
 
 		for (uint32_t i = 0; i < mViewportW * mViewportH; i++)
 		{
-			mImageData[i] = 0xffff00ff;
+			mImageData[i] = 0xff0ffff0;
 		}
 
 		//.get just passes the memory from the pointer to the function
