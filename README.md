@@ -1,6 +1,13 @@
-# Walnut App Template
+# Ray-Tracing
 
-This is a simple app template for [Walnut](https://github.com/TheCherno/Walnut) - unlike the example within the Walnut repository, this keeps Walnut as an external submodule and is much more sensible for actually building applications. See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
+This is a simple raytracer I made following the Cherno's raytracing series. 
 
-## Getting Started
-Once you've cloned, you can customize the `premake5.lua` and `WalnutApp/premake5.lua` files to your liking (eg. change the name from "WalnutApp" to something else).  Once you're happy, run `scripts/Setup.bat` to generate Visual Studio 2022 solution/project files. Your app is located in the `WalnutApp/` directory, which some basic example code to get you going in `WalnutApp/src/WalnutApp.cpp`. I recommend modifying that WalnutApp project to create your own application, as everything should be setup and ready to go.
+The goal of this project was to get my feet wet in graphics programming! I felt that was the best choice as it uses some vulkan and goes into muiltthread code in C++.
+Ray-Tracing uses a template from [Walnut](https://github.com/TheCherno/Walnut) to handle window, ui, rendering set up, while the core raytracing code is wrote by me!
+
+## Building the project
+If you want to build the project you can using the ``scripts/Setup.bat`` file and it will generate VS 2022 project for you. You must ensure that you have the vulkan SDK on your PC or this will not work!
+
+## Progess Log
+
+### Day 1
